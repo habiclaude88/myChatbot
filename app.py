@@ -23,7 +23,6 @@ class Queries(db.Model):
     answer = db.Column(db.String(1000))
     lan = db.Column(db.String(5))
     created_at = db.Column(db.DateTime, default=datetime.datetime.utcnow)
-    created_at = db.Column(db.DateTime, default=datetime.datetime.utcnow)
 with app.app_context():
     db.create_all()
 #from flask import get_response
@@ -75,7 +74,7 @@ def predict():
     response, sl = process(text)
     # we jsonify our response
     message = {"answer":response}
-    query = Queries(question=text, answer=response, language=sl)
+    query = Queries(question=text, answer=response, lan=sl)
     db.session.add(query)
     db.session.commit()
     return jsonify(message)

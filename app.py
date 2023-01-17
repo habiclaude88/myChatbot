@@ -13,16 +13,17 @@ chatBot = chatBot()
 #import nltk
 #nltk.download('punkt')
 app = Flask(__name__)
-app.config['SQLALCHEMY_DATABASE_URI'] = "postgresql+psycopg2://haby:J40StLB8XVjCedGgSJskqX4AjgnfPfCU@dpg-cf2kavun6mpkr6em6is0-a.oregon-postgres.render.com/chatbot_bu41"
+app.config['SQLALCHEMY_DATABASE_URI'] = "postgresql+psycopg2://admin:9mcxtgIFPQwi0cKDy8fhEy14YQCLV98M@dpg-cf35u3pgp3jl0q3bmj60-a.oregon-postgres.render.com/chatbot_n9e3"
 db = SQLAlchemy(app)
 CORS(app)
 ## Database
 class Queries(db.Model):
-    id = db.Column(db.Integer, primary_key=True)
+    chat_id = db.Column(db.Integer, primary_key=True)
     question = db.Column(db.String(1000))
     answer = db.Column(db.String(1000))
-    language = db.Column(db.String(5))
-    timestamp = db.Column(db.DateTime, default=datetime.datetime.utcnow)
+    lan = db.Column(db.String(5))
+    created_at = db.Column(db.DateTime, default=datetime.datetime.utcnow)
+    created_at = db.Column(db.DateTime, default=datetime.datetime.utcnow)
 with app.app_context():
     db.create_all()
 #from flask import get_response

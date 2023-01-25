@@ -1,6 +1,168 @@
 {
   "intents": [
     {
+      "tag": "background",
+      "patterns": [
+        "when was RURA created?"
+      ],
+      "responses": [
+        "Rwanda Utilities Regulatory Authority(RURA) was initially created by the Law n° 39/2001 of 13 September 2001 with the mission to regulate certain public Utilities, namely: telecommunications network and/or Telecommunications services, electricity, water, removal of waste products from residential or business premises, extraction and distribution of gas and transport of goods and persons.  This Law was further reviewed and replaced by Law Nº 09/2013 of 01/03/2013 establishing Rwanda Utilities Regulatory Authority (RURA) and determining its mission, powers, organisation and functioning. This Law gives to RURA the mandate to regulate:   Telecommunications, information technology, broadcasting and converging electronic technologies including the internet and any other audiovisual information and communication technology; Postal services; Renewable and non-renewable energy, industrial gases, pipelines and storage facilities; Water; Sanitation; Transport of persons and goods; Radiation Protection; and Other public utilities, if deemed necessary."
+      ]
+    },
+    {
+      "tag": "background",
+      "patterns": [
+        "what is the main objectives of RURA creation?"
+      ],
+      "responses": [
+        "Rwanda Utilities Regulatory Authority(RURA) was initially created by the Law n° 39/2001 of 13 September 2001 with the mission to regulate certain public Utilities, namely: telecommunications network and/or Telecommunications services, electricity, water, removal of waste products from residential or business premises, extraction and distribution of gas and transport of goods and persons.  This Law was further reviewed and replaced by Law Nº 09/2013 of 01/03/2013 establishing Rwanda Utilities Regulatory Authority (RURA) and determining its mission, powers, organisation and functioning. This Law gives to RURA the mandate to regulate:   Telecommunications, information technology, broadcasting and converging electronic technologies including the internet and any other audiovisual information and communication technology; Postal services; Renewable and non-renewable energy, industrial gases, pipelines and storage facilities; Water; Sanitation; Transport of persons and goods; Radiation Protection; and Other public utilities, if deemed necessary."
+      ]
+    },
+    {
+      "tag": "functions",
+      "patterns": [
+        "what are the functions of RURA?"
+      ],
+      "responses": [
+        "To be able to regulate public utilities, the Law Nº 09/2013 of 01/03/2013 gives to the Authority the following missions:"
+      ]
+    },
+    {
+      "tag": "functions",
+      "patterns": [
+        "what are the main duties of RURA?"
+      ],
+      "responses": [
+        "To set up necessary guidelines in order to implement laws and regulations in force"
+      ]
+    },
+    {
+      "tag": "functions",
+      "patterns": [
+        "what does RURA serve?"
+      ],
+      "responses": [
+        "To ensure compliance by public utilities with the provisions of laws and regulations governing the regulated sectors in an objective, transparent and non-discriminatory manner;"
+      ]
+    },
+    {
+      "tag": "functions",
+      "patterns": [
+        "which ways does RURA contribute?"
+      ],
+      "responses": [
+        "To ensure the continuity of service delivery by the licensed or authorized service providers and the preservation of public interest;"
+      ]
+    },
+    {
+      "tag": "functions",
+      "patterns": [
+        "which ways does RURA contribute?"
+      ],
+      "responses": [
+        "To protect users’ and operators’ interests by taking measures likely to guarantee effective, sound and fair competition in the regulated sectors within the framework of applicable laws and regulations;"
+      ]
+    },
+    {
+      "tag": "functions",
+      "patterns": [
+        "which ways does RURA contribute?"
+      ],
+      "responses": [
+        "To protect and promote consumers’ interests;"
+      ]
+    },
+    {
+      "tag": "functions",
+      "patterns": [
+        "which ways does RURA contribute?"
+      ],
+      "responses": [
+        "To promote the availability, accessibility and affordability of regulated services to all consumers including low income, rural and disadvantaged consumers;"
+      ]
+    },
+    {
+      "tag": "functions",
+      "patterns": [
+        "which ways does RURA contribute?"
+      ],
+      "responses": [
+        "To promote efficient development of regulated sectors in accordance with Government economic and financial policy;"
+      ]
+    },
+    {
+      "tag": "functions",
+      "patterns": [
+        "which ways does RURA contribute?"
+      ],
+      "responses": [
+        "To promote and enhance general knowledge, sensitization and awareness of the regulated sectors including but not limited to:"
+      ]
+    },
+    {
+      "tag": "functions",
+      "patterns": [
+        "which ways does RURA contribute?"
+      ],
+      "responses": [
+        "Promote and protect the rights and obligations of consumers and service providers;"
+      ]
+    },
+    {
+      "tag": "functions",
+      "patterns": [
+        "which ways does RURA contribute?"
+      ],
+      "responses": [
+        "Issuing permits, authorizations and licenses required for regulated sectors, in accordance with the relevant laws and regulations;"
+      ]
+    },
+    {
+      "tag": "functions",
+      "patterns": [
+        "which ways does RURA contribute?"
+      ],
+      "responses": [
+        "To monitor and ensure compliance by regulated network or service providers in line with their licenses, permits and concession obligations;"
+      ]
+    },
+    {
+      "tag": "functions",
+      "patterns": [
+        "which ways does RURA contribute?"
+      ],
+      "responses": [
+        "To ensure fair competition in all regulated sectors."
+      ]
+    },
+    {
+      "tag": "Addresss Location",
+      "patterns": [
+        "WHere is the Head Office Located"
+      ],
+      "responses": [
+        "KN 39 St, Kigali"
+      ]
+    },
+    {
+      "tag": "Route Address/Map",
+      "patterns": [
+        "Guide me using google map to RURA HQ"
+      ],
+      "responses": [
+        "https://www.google.com/maps/dir/Rura,+KN+39+St,+Kigali/"
+      ]
+    },
+    {
+      "tag": "online services ",
+      "patterns": [
+        "what are E-services offered by RURA?"
+      ],
+      "responses": [
+        "ICT Services ElectricityGas & PetroleumPostal Services & E-CommerceNuclear and Radiation ProtectionWater and SanitationE-waste"
+      ]
+    },
+    {
       "tag": "Greetings",
       "patterns": [
         "Hello",
@@ -14,7 +176,6 @@
         "hello! how are you doing?",
         "hi, pleasure to be of service",
         "hi, how can I help you?"
-
       ]
     },
     {
@@ -32,7 +193,6 @@
         "feel free to come again anytime please!",
         "Anytime!",
         "happy to help!"
-
       ]
     },
     {

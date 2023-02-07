@@ -1,157 +1,165 @@
 {
-    "intents": [
-      {
-        "tag": "address",
-        "patterns": [
-          "What is your address?",
-          "Where are you located?",
-          "Where can I find you?"
-        ],
-        "responses": [
-          "We are located at: KG 220 St, Kigali, Gishushu | Kigali | Rwanda, P.O. Box 6239 Kigali, Rwanda"
-        ]
+  "intents" :
+  [
+    {
+      "tag" : "address",
+      "patterns" : ["What is your address?", "Where are you located?", "Where can I find you?"],
+      "responses" : ["We are located at: KG 220 St, Kigali, Gishushu | Kigali | Rwanda,P.O. Box 6239 Kigali, Rwanda"]
+    },
+    {
+        "tag" : "contact",
+        "patterns" : ["What is your contact?", "how ca I reach you?", "What is your phone number","what is your P.O. Box?"],
+        "responses" : ["Cell Center (Local): 1415", "Cell Center (International): +250 727775170","WhatsApp: +250 788321555"]
       },
       {
-        "tag": "greeting",
-        "patterns": [
-          "Hi",
-          "How are you",
-          "Is anyone there?",
-          "Hello",
-          "Good day",
-          "Whats up"
-        ],
-        "responses": [
-          "Hello, thanks for visiting",
-          "Good to see you again",
-          "Hi there, how can I help?"
-        ]
-      },
-      {
-        "tag": "goodbye",
-        "patterns": [
-          "Bye",
-          "See you later",
-          "Goodbye"
-        ],
-        "responses": [
-          "See you later, thanks for visiting",
-          "Have a nice day",
-          "Bye! Come back again soon."
-        ]
-      },
-      {
-        "tag": "contact",
-        "patterns": [
-          "What is your contact?",
-          "How can I reach you?",
-          "What is your phone number",
-          "what is your P.O. Box?"
-        ],
-        "responses": [
-          "Cell Center (Local): 1415",
-          "Cell Center (International): +250 727775170",
-          "WhatsApp: +250 788321555"
-        ]
-      },
-      {
-        "tag": "Senior_management",
-        "patterns": [
-          "Who is in the senior management of RDB?",
-          "Who is the CEO of RDB?",
-          "Who is on the leadership team of RDB?"
-        ],
-        "responses": [
-          "The senior management of RDB is comprised of Clare Akamanzi (Chief Executive Officer), Philip Lucky (Ag. Chief Investment Officer), Elodie Rusera (Chief Skills Officer), Michaella Rugwizangoga (Chief Tourism Officer), Joseph Cedrick Nsengiyumva (Chief Financial Officer), and Richard Kayibanda (Ag. Chief Strategy and Compliance Officer)."
-        ]
-      },
-      {
-        "tag": "AboutRDB",
-        "patterns": [
-          "What is RDB?",
-          "Tell me about RDB?",
-          "What does RDB do?"
-        ],
-        "responses": [
-          "Rwanda Development Board (RDB) is a government institution mandated to accelerate Rwanda’s economic development by enabling private sector growth, offering services such as business and investment registration, visa facilitation, EIA, tax incentives management, etc., Investment Promotion, Investment Deals Negotiation, Export & SEZ Development, Tourism and Conservation, and Private Sector Skills Development."
-        ]
-      },
-      {
-        "tag": "RDBVision",
-        "patterns": [
-          "What is RDB's vision?",
-          "What is RDB's mission?",
-          "What is RDB's goal?"
-        ],
-        "responses": [
-          "RDB's vision is to be a world-class investment promotion agency that facilitates the growth of a globally competitive private sector in Rwanda. RDB's mission is to accelerate Rwanda's economic development by enabling private sector growth. RDB's goal is to attract and facilitate investment in Rwanda."
-        ]
-      },
-      {
-        "tag": "ContactRDB",
-        "patterns": [
-          "How can I contact RDB?",
-          "What is the contact information of RDB?",
-          "What is RDB's phone number?"
-        ],
-        "responses": [
-          "You can contact RDB at the following address: Rwanda Development Board (RDB), KG 220 St, Kigali, Gishushu | Kigali | Rwanda. P.O. Box 6239 Kigali, Rwanda. You can also contact RDB by phone at: Cell Center (Local): 1415. Cell Center (International): +250 727775170. WhatsApp: +250 788321555."
-        ]
-      },
-      {
-        "tag": "Investment_Policy",
-        "patterns": [
-          "What is RDB's investment policy?",
-          "What are the guidelines for investment in Rwanda?",
-          "What are the investment opportunities in Rwanda?"
-        ],
-        "responses": [
-          "RDB's investment policy is aimed at creating an enabling environment for investors to thrive in Rwanda. The investment policy outlines the guidelines for investment in Rwanda and the investment opportunities available in the country. It covers areas such as investment promotion, facilitation and incentives, investment deal negotiation, and investment disputes resolution."
-        ]
-      },
-      {
-        "tag": "Business_Registration",
-        "patterns": [
-          "How do I register my business in Rwanda?",
-          "What are the steps to register a business in Rwanda?",
-          "What is the process for business registration in Rwanda?"
-        ],
-        "responses": [
-          "To register your business in Rwanda, you need to follow these steps: 1) Choose a business name and have it approved by the Rwanda Development Board (RDB), 2) Obtain a Tax Identification Number (TIN) from the Rwanda Revenue Authority (RRA), 3) Register your business with the Rwanda Development Board (RDB), 4) Obtain necessary permits and licenses, 5) Register for social security and labor obligations. For more detailed information, you can visit the Rwanda Development Board's website or contact them directly."
-        ]
-      },
-      {
-        "tag": "Tax_Incentives",
-        "patterns": [
-          "What tax incentives are available in Rwanda?",
-          "What are the tax benefits for investors in Rwanda?",
-          "What are the tax exemptions for businesses in Rwanda?"
-        ],
-        "responses": [
-          "Rwanda offers several tax incentives for investors. These include tax holidays, tax exemptions, reduced tax rates, and investment allowances. The exact tax benefits for investors in Rwanda depend on the type of investment and sector. You can contact the Rwanda Development Board for more information on specific tax incentives available for your business."
-        ]
-      },
-      {
-        "tag": "Visa_Facilitation",
-        "patterns": [
-          "What is visa facilitation?",
-          "How can I get a visa to Rwanda?",
-          "What is the process for obtaining a visa to Rwanda?"
-        ],
-        "responses": [
-          "Visa facilitation is the process of helping investors and visitors obtain a visa to enter Rwanda. The Rwanda Development Board provides visa facilitation services to investors and visitors to help them navigate the visa process and obtain their visas quickly and efficiently. To obtain a visa to Rwanda, you will need to complete the online visa application form, provide the required documents, and pay the visa fee. You can find more information on the Rwanda Development Board's website."
-        ]
-      },
-      {
-        "tag": "Investment_Deals",
-        "patterns": [
-          "What is RDB's role in investment deals?",
-          "How does RDB negotiate investment deals?",
-          "What is the process for negotiating investment deals with RDB?"
-        ],
-        "responses": [
-          "The Rwanda Development Board is responsible for negotiating investment deals on behalf of the government of Rwanda. RDB works with investors to identify investment opportunities, provide information and support, and negotiate the terms of the investment deal. The process for negotiating investment deals with RDB typically involves initial discussions with RDB, the submission of an investment proposal, due diligence, negotiations and finalizing the investment agreement."
-        ]
-      }
+        "tag" : "AboutRDB",
+        "patterns" : ["What is RDB?", "Tell me about RDB?", "What does RDB do?"],
+        "responses" : ["Rwanda Development Board (RDB) is a government institution mandated to accelerate Rwanda’s economic development by enabling private sector growth, offering services such as business and investment registration, visa facilitation, EIA, tax incentives management, etc., Investment Promotion, Investment Deals Negotiation, Export & SEZ Development, Tourism and Conservation, and Private Sector Skills Development."]
+        },
+        {   
+        "tag" : "RDBVision",
+        "patterns" : ["What is RDB's vision?", "What is RDB's mission?", "What is RDB's goal?"],
+        "responses" : ["RDB's vision is to be a world-class investment promotion agency that facilitates the growth of a globally competitive private sector in Rwanda. RDB's mission is to accelerate Rwanda's economic development by enabling private sector growth. RDB's goal is to attract and facilitate investment in Rwanda."]
+        },
+        {
+        "tag" : "SeniorManagement",
+        "patterns" : ["Who is in the senior management of RDB?", "Who is the CEO of RDB?", "Who is on the leadership team of RDB?"],
+        "responses" : ["The senior management of RDB is comprised of Clare Akamanzi (Chief Executive Officer), Philip Lucky (Ag. Chief Investment Officer), Elodie Rusera (Chief Skills Officer), Michaella Rugwizangoga (Chief Tourism Officer), Joseph Cedrick Nsengiyumva (Chief Financial Officer), and Richard Kayibanda (Ag. Chief Strategy and Compliance Officer)."]
+        },
+        {
+        "tag" : "ContactRDB",
+        "patterns" : ["How can I contact RDB?", "What is the contact information of RDB?", "What is RDB's phone number?"],
+        "responses" : ["You can contact RDB at the following address: Rwanda Development Board (RDB), KG 220 St, Kigali, Gishushu | Kigali | Rwanda. P.O. Box 6239 Kigali, Rwanda. Hotline: Cell Center (Local): 1415, Cell Center (International): +250 727775170, WhatsApp: +250 788321555 (From 7AM to 11PM Kigali Time (GMT+2)). E-mail: For general enquiries: info@rdb.rw, For investment related queries: investorfeedback@rdb.rw"]
+        },
+        {
+        "tag" : "RDBServices",  
+        "patterns" : ["What services does RDB offer?", "What does RDB do?", "What are the services offered by RDB?"],
+        "responses" : ["RDB offers the following services: Investment Promotion, Investment Deals Negotiation, Export & SEZ Development, Tourism and Conservation, and Private Sector Skills Development."]
+        },
+        {
+        "tag" : "RDBInvestmentPromotion",
+        "patterns" : ["What is RDB's investment promotion strategy?", "What is RDB's investment promotion strategy?", "What is RDB's investment promotion strategy?"],
+        "responses" : ["RDB's investment promotion strategy is to attract and facilitate investment in Rwanda. RDB's investment promotion strategy is to attract and facilitate investment in Rwanda."]
+        },
+        {
+            "tag": "Internship_Program",
+            "patterns": ["What is the RDB Internship Program?", "What are the requirements for the RDB Internship Program?", "How can I apply for the RDB Internship Program?"],
+            "responses": ["The RDB Internship Program is designed to equip interns with practical skills, reinforce practical capacity, develop professionalism, positive work ethics and employability skills, and provide work experience. It is open to all Rwandan fresh graduates from HLIs, TVET (IPRCs) in Rwanda or from abroad, in need of employability skills and professional experience. To apply, applicants should fill out the online form on the RDB website or approach the RDB Internship Office or call 1415 for support. The required documents are a copy of the degree."]
+        },
+        {
+            "tag": "Vision_and_Mission",
+            "patterns": ["What is the vision of the RDB?", "What is the mission of the RDB?", "What are the objectives of the RDB?"],
+            "responses": ["The vision of the RDB is to transform Rwanda into a dynamic global hub for business, investment, and innovation. The mission is to fast-track economic development in Rwanda by enabling private sector growth. The objective is to make RDB a remarkable institution."]
+        },
+        {
+            "tag": "Investment_Opportunities",
+            "patterns": ["What types of investments are available with the RDB?", "What are some of the investment opportunities with the RDB?", "What sectors do the RDB offer investment opportunities in?"],
+            "responses": ["RDB offers investment opportunities in Manufacturing, Agro-Processing, Tourism, Real estate and construction, ICT, Services, Mining, Infrastructure, Tourism, Energy, Health Services, and Education."]
+        },
+        {
+            "tag": "Investment_Promotion",
+            "patterns": ["What is the investment promotion strategy of the RDB?", "What is the investment promotion strategy of the RDB?", "What is the investment promotion strategy of the RDB?"],
+            "responses": ["The investment promotion strategy of the RDB is to attract and facilitate investment in Rwanda."]
+        },
+        {
+            "tag": "Investment_Deals",
+            "patterns": ["What is the investment deals negotiation strategy of the RDB?", "What is the investment deals negotiation strategy of the RDB?", "What is the investment deals negotiation strategy of the RDB?"],
+            "responses": ["The investment deals negotiation strategy of the RDB is to attract and facilitate investment in Rwanda."]
+        },
+        {
+            "tag": "Export_and_SEZ",
+            "patterns": ["What is the export and SEZ development strategy of the RDB?", "What is the export and SEZ development strategy of the RDB?", "What is the export and SEZ development strategy of the RDB?"],
+            "responses": ["The export and SEZ development strategy of the RDB is to attract and facilitate investment in Rwanda."]
+        },
+        {
+            "tag": "Tourism_and_Conservation",
+            "patterns": ["What is the tourism and conservation strategy of the RDB?", "What is the tourism and conservation strategy of the RDB?", "What is the tourism and conservation strategy of the RDB?"],
+            "responses": ["The tourism and conservation strategy of the RDB is to attract and facilitate investment in Rwanda."]
+        },
+        {
+            "tag": "Private_Sector_Skills",
+            "patterns": ["What is the private sector skills development strategy of the RDB?", "What is the private sector skills development strategy of the RDB?", "What is the private sector skills development strategy of the RDB?"],
+            "responses": ["The private sector skills development strategy of the RDB is to attract and facilitate investment in Rwanda."]
+        },
+        {
+            "tag": "Investment_Promotion",
+            "patterns": ["What is the investment promotion strategy of the RDB?", "What is the investment promotion strategy of the RDB?", "What is the investment promotion strategy of the RDB?"],
+            "responses": ["The investment promotion strategy of the RDB is to attract and facilitate investment in Rwanda."]
+        },
+        {
+            "tag": "Registering a business",
+            "patterns": ["How do I register a business in Rwanda?", "What are the requirements for registering a business in Rwanda?", "What are the steps to register a business in Rwanda?"],
+            "responses": ["To register a business in Rwanda, you need to fill out the online form on the RDB website or approach the RDB Internship Office or call 1415 for support. The required documents are a copy of the degree."]
+        },
+        {
+            "tag": "Requirements for registering a company",
+            "patterns": ["What are the requirements for registering a company in Rwanda?", "What are the requirements for registering a company in Rwanda?", "What are the requirements for registering a company in Rwanda?"],
+            "responses": ["An active email address","ID card or passport",
+            "Certificate of Incorporation and Articles of association (foreign companies) for corporate entity shareholder(s); a foreign company registration necessitatesa shareholder/board resolution to open up a branch and appointment of branch representative residing in Rwanda",
+            "Company name","Provisional business activities","Office Address"]
+        },
+        {
+            "tag": "Requirements for registeringan NGO, Association or a Cooperative",
+            "patterns": ["What are the requirements for registering an NGO, Association or a Cooperative in Rwanda?", "What are the requirements for registering an NGO, Association or a Cooperative in Rwanda?", "What are the requirements for registering an NGO, Association or a Cooperative in Rwanda?"],
+            "responses":["They will be requested evidence of registration at Rwanda Governance Board or Rwanda Cooperatives Agency as well as Board resolution to open up a business Shareholders particulars Board members particulars Directors particulars",
+            "Defense and Investigation activities are registered upon presentation of official authorization from the National Police"]
+        },
+        {
+            "tag": "Filling Annual returns",
+            "patterns": ["How do I fill annual returns?", "What are the requirements for filling annual returns?", "What are the steps to fill annual returns?"],
+            "responses": ["Domestic companies with a turnover of less than 400000000",
+            "Income statements and statement of financial position", "Resolutions for amendment if any Domestic companies with a turn over 400000000 and above Income statements",
+            "Statement of financial position",
+            "Statement of cash flow",
+            "Statement of change in equity",
+            "Financial statement notes Auditors and/or directors report",
+            "Resolutions for an amendment if any Holding Companies Income statements",
+            "Consolidated Income statements",
+            "Consolidated Statement of financial position",
+            "Consolidated Statement of cash flow",
+            "Consolidated Statement of change in equity",
+            "Financial statements notes",
+            "Auditors report",
+            "Resolutions for amendment",
+            "Foreign Companies Income statements",
+            "Statement of financial position",
+            "Statement of cash flow",
+            "Statement of change in equity",
+            "Financial statements notes",
+            "Auditors report"]
+        },
+        {
+          "tag": "RDB Events and Conferences",
+          "patterns": [
+            "What kind of events and conferences does RDB organize?",
+            "What are the topics covered in RDB's events and conferences?",
+            "What are the benefits of attending RDB's events and conferences?"
+          ],
+          "responses": [
+            "RDB regularly organizes events and conferences to provide a platform for businesses, investors, and entrepreneurs to network, learn about new developments, and explore investment opportunities. These events cover a wide range of topics, including economic development, investment, business growth, entrepreneurship, tourism, and skills development."
+          ]
+        },
+        {
+          "tag": "RDB Trade and Investment Missions",
+          "patterns": [
+            "What are RDB's trade and investment missions?",
+            "What do these missions aim to achieve?",
+            "What are the benefits of participating in RDB's missions?"
+          ],
+          "responses": [
+            "RDB organizes trade and investment missions to connect Rwandan businesses with potential investors and partners. The aim is to showcase Rwanda's investment opportunities, promote Rwandan products and services, and facilitate business relationships."
+          ]
+        },
+        {
+            "tag": "Greeting",
+            "patterns": ["Hi", "How are you", "Is anyone there?", "Hello", "Good day"],
+            "responses": ["Hello, thanks for visiting", "Good to see you again", "Hi there, how can I help?"]
+        },
+        {
+            "tag": "Goodbye",
+            "patterns": ["Bye", "See you later", "Goodbye"],
+            "responses": ["See you later, thanks for visiting", "Have a nice day", "Bye! Come back again soon."]
+        }
+
     ]
-  }
+    }

@@ -182,14 +182,14 @@
       ]
     },
     {
-      "tag": "Internship_Program",
+      "tag": "Internship Program",
       "patterns": [
         "What is the RDB Internship Program?",
         "What are the requirements for the RDB Internship Program?",
         "How can I apply for the RDB Internship Program?"
       ],
       "responses": [
-        "The RDB Internship Program is designed to equip interns with practical skills, reinforce practical capacity, develop professionalism, positive work ethics and employability skills, and provide work experience. It is open to all Rwandan fresh graduates from HLIs, TVET (IPRCs) in Rwanda or from abroad, in need of employability skills and professional experience. To apply, applicants should fill out the online form on the RDB website or approach the RDB Internship Office or call 1415 for support. The required documents are a copy of the degree."
+        "The RDB Internship Program is designed to equip interns with practical skills, reinforce practical capacity, develop professionalism, positive work ethics and employability skills, and provide work experience. It is open to all Rwandan fresh graduates from HLIs, TVET (IPRCs) in Rwanda or from abroad, in need of employability skills and professional experience. To apply, applicants should fill out the online form on the RDB website or approach the RDB Internship Office or call 1415 for support. The required documents are a copy of the degree. or use this <a href=\"https://kora.rw/internship/internship/internshipinternapplication\" target=\"_blank\">link</a>"
       ]
     },
     {
@@ -223,6 +223,18 @@
       ],
       "responses": [
         "The investment promotion strategy of the RDB is to attract and facilitate investment in Rwanda."
+      ]
+    },
+    {
+      "tag": "E-services",
+      "patterns": [
+        "What are the available e-services offered by RDB?", 
+        "Can I access RDB services online?", 
+        "What online services does RDB provide?", 
+        "How do I access RDB e-services?"
+      ],
+      "responses": [
+        "use this <a href=\"https://rdb.rw/e-services/\" target=\"_blank\">link</a>"
       ]
     },
     {
